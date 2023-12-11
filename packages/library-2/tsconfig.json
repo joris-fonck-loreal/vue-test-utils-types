@@ -1,0 +1,17 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"rootDir": ".",
+		"outDir": "dist",
+	},
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.vue"
+	],
+	"references": [
+		{
+			"path": "./tsconfig.vite.json"
+		}
+	]
+}

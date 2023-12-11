@@ -1,0 +1,344 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@zag-js/checkbox':
+    specifier: ^0.22.0
+    version: 0.22.0
+  '@zag-js/dialog':
+    specifier: ^0.22.0
+    version: 0.22.0
+  '@zag-js/range-slider':
+    specifier: ^0.22.0
+    version: 0.22.0
+  '@zag-js/vue':
+    specifier: ^0.22.0
+    version: 0.22.0
+  class-variance-authority:
+    specifier: ^0.6.0
+    version: 0.6.0
+  libphonenumber-js:
+    specifier: ^1.10.41
+    version: 1.10.41
+  uuid:
+    specifier: ^9.0.0
+    version: 9.0.0
+
+devDependencies:
+  '@bt-services/theme':
+    specifier: workspace:*
+    version: link:../theme
+  '@types/uuid':
+    specifier: ^9.0.2
+    version: 9.0.2
+  '@vee-validate/zod':
+    specifier: ^4.11.8
+    version: 4.11.8
+  '@vueuse/core':
+    specifier: ^10.4.1
+    version: 10.5.0
+  '@zag-js/types':
+    specifier: ^0.22.0
+    version: 0.22.0
+  vee-validate:
+    specifier: ^4.11.8
+    version: 4.11.8
+  zod:
+    specifier: ^3.22.4
+    version: 3.22.4
+
+packages:
+
+  /@types/uuid@9.0.2:
+    resolution: {integrity: sha512-kNnC1GFBLuhImSnV7w4njQkUiJi0ZXUycu1rUaouPqiKlXkh77JKgdRnTAp1x5eBwcIwbtI+3otwzuIDEuDoxQ==}
+    dev: true
+
+  /@types/web-bluetooth@0.0.18:
+    resolution: {integrity: sha512-v/ZHEj9xh82usl8LMR3GarzFY1IrbXJw5L4QfQhokjRV91q+SelFqxQWSep1ucXEZ22+dSTwLFkXeur25sPIbw==}
+    dev: true
+
+  /@vee-validate/zod@4.11.8:
+    resolution: {integrity: sha512-qAyqDEigklMf669ZqIw9t95g0Ipzu9rMYUqcZpANlCvyaIAeBlJGcsv+2CewlqgwuC6BL9EAURLJ8Ux5WlBgXg==}
+    dependencies:
+      type-fest: 4.5.0
+      vee-validate: 4.11.8
+      zod: 3.22.4
+    transitivePeerDependencies:
+      - vue
+    dev: true
+
+  /@vue/devtools-api@6.5.1:
+    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: true
+
+  /@vueuse/core@10.5.0:
+    resolution: {integrity: sha512-z/tI2eSvxwLRjOhDm0h/SXAjNm8N5ld6/SC/JQs6o6kpJ6Ya50LnEL8g5hoYu005i28L0zqB5L5yAl8Jl26K3A==}
+    dependencies:
+      '@types/web-bluetooth': 0.0.18
+      '@vueuse/metadata': 10.5.0
+      '@vueuse/shared': 10.5.0
+      vue-demi: 0.14.6
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  /@vueuse/metadata@10.5.0:
+    resolution: {integrity: sha512-fEbElR+MaIYyCkeM0SzWkdoMtOpIwO72x8WsZHRE7IggiOlILttqttM69AS13nrDxosnDBYdyy3C5mR1LCxHsw==}
+    dev: true
+
+  /@vueuse/shared@10.5.0:
+    resolution: {integrity: sha512-18iyxbbHYLst9MqU1X1QNdMHIjks6wC7XTVf0KNOv5es/Ms6gjVFCAAWTVP2JStuGqydg3DT+ExpFORUEi9yhg==}
+    dependencies:
+      vue-demi: 0.14.6
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  /@zag-js/anatomy@0.22.0:
+    resolution: {integrity: sha512-WR6EDkedi+vKBE9/Yeki4VnYHw7+EncqvftSRoy9a7xXI47zEcflw7UDz/R3Q/x7DQKYmxV3TZfOMdqwXmsX6g==}
+    dev: false
+
+  /@zag-js/aria-hidden@0.22.0:
+    resolution: {integrity: sha512-5KBsMYPfSYXbpYUW6vUn5V+U5tMSTgDz8KtheoFKmPKesC8vQ9s0vcY4/Ain1KRpP4/CTTR+egs0aon0KlP8fg==}
+    dependencies:
+      '@zag-js/dom-query': 0.22.0
+    dev: false
+
+  /@zag-js/checkbox@0.22.0:
+    resolution: {integrity: sha512-zEVwx2/Uqyq4oMK5w1eNvB76UbrB3JwMtnXLfLdabvTGARrHJc7R7RhaNQgbMu1IBfGIUeFV+eXC9yjhNKr9gQ==}
+    dependencies:
+      '@zag-js/anatomy': 0.22.0
+      '@zag-js/core': 0.22.0
+      '@zag-js/dom-query': 0.22.0
+      '@zag-js/form-utils': 0.22.0
+      '@zag-js/types': 0.22.0
+      '@zag-js/utils': 0.22.0
+      '@zag-js/visually-hidden': 0.22.0
+    dev: false
+
+  /@zag-js/core@0.22.0:
+    resolution: {integrity: sha512-gez001HAZSbto/c+Fv3CS6QfMW9CHjNgjqe+vqwalZ4Ca3ccBt7l8cpoEa+KFRLVe1x7mYYPqqPr9qCEpCEbGw==}
+    dependencies:
+      '@zag-js/store': 0.22.0
+      klona: 2.0.6
+    dev: false
+
+  /@zag-js/dialog@0.22.0:
+    resolution: {integrity: sha512-8QFyNe9U1a/9K9oASeUq/6gM+Nvli7OBP8xmzuueQ/jcrlJzEb9vizi+EzRyN1bVukWQfw8O4ydOuCvdF7piLA==}
+    dependencies:
+      '@zag-js/anatomy': 0.22.0
+      '@zag-js/aria-hidden': 0.22.0
+      '@zag-js/core': 0.22.0
+      '@zag-js/dismissable': 0.22.0
+      '@zag-js/dom-query': 0.22.0
+      '@zag-js/remove-scroll': 0.22.0
+      '@zag-js/types': 0.22.0
+      '@zag-js/utils': 0.22.0
+      focus-trap: 7.5.2
+    dev: false
+
+  /@zag-js/dismissable@0.22.0:
+    resolution: {integrity: sha512-iRNpst7rcwT3hqmiyHODvesMCphgGJo+3pAPA4SzsP93JUKAEXQUDsNwszq4n7Ze9AmKlSbH+H3dKpmoXTNEhw==}
+    dependencies:
+      '@zag-js/dom-event': 0.22.0
+      '@zag-js/dom-query': 0.22.0
+      '@zag-js/interact-outside': 0.22.0
+      '@zag-js/utils': 0.22.0
+    dev: false
+
+  /@zag-js/dom-event@0.22.0:
+    resolution: {integrity: sha512-FizyqQV/HGlHMJ+G684x4Uq+BaysjZYF4sacu6MfXWu93P80kEhSJWkco5H4CwSJj9D/6CyDfnid+NwnlWz+1A==}
+    dependencies:
+      '@zag-js/text-selection': 0.22.0
+      '@zag-js/types': 0.22.0
+    dev: false
+
+  /@zag-js/dom-query@0.22.0:
+    resolution: {integrity: sha512-6iX02fEq63QQjffN9Qvdp5ftpSwJ7a/YJNqcs4yVhO0THQrVZKRZ6asB6INf/IO3LO0Y5zdCPdl+UrRa3FpAFA==}
+    dev: false
+
+  /@zag-js/element-size@0.22.0:
+    resolution: {integrity: sha512-+keTm47HSYkkB7kWofyULuk5EW3i6rQk+ca6hZbpg7W3/8EGghYc+iRJCKrIjahfpOvbCXy2mfpom+rF8JDS7g==}
+    dev: false
+
+  /@zag-js/form-utils@0.22.0:
+    resolution: {integrity: sha512-DKDWaE5jc9LrPm+mw+j3/x+SjbETM9FvZlFWzJMMWfKxTiPs2nF9DUhBePSx4Tyh0YkMuCF6zCXT16vtNS/M4w==}
+    dependencies:
+      '@zag-js/mutation-observer': 0.22.0
+    dev: false
+
+  /@zag-js/interact-outside@0.22.0:
+    resolution: {integrity: sha512-TmWWZeSaodIRbM3glCrQN+kuPCQNKOw8uCuK3Kx0sNZ61LRAs+WNTuU6pcf7TCWNXmEIpozLKGHUpvDcHi3KZQ==}
+    dependencies:
+      '@zag-js/dom-event': 0.22.0
+      '@zag-js/dom-query': 0.22.0
+      '@zag-js/tabbable': 0.22.0
+      '@zag-js/utils': 0.22.0
+    dev: false
+
+  /@zag-js/mutation-observer@0.22.0:
+    resolution: {integrity: sha512-7gBQ9w2K+18f7pWYLCzoBKyJrtKxi/sqtJP9YgkRpyfggxNyOUL9jS31Y9QxJHb8J9uTpUEfteKulf+qXxxvOQ==}
+    dev: false
+
+  /@zag-js/numeric-range@0.22.0:
+    resolution: {integrity: sha512-PIaX1ofa4UkZkmLFH44/+DEfq/fNVGPbaZzPmJj/xpmWm9rzi+G6xiOCbgzFASxrudazichC/DdMk4Vv2emI/A==}
+    dev: false
+
+  /@zag-js/range-slider@0.22.0:
+    resolution: {integrity: sha512-1CTXzFx2uxecBHr8FT6svi6sYIdcu2oF0cy3Edo3m16KfSZakbzjnBxp9/oGb9/BSvbaJMDE3VS5cdZcidzv5g==}
+    dependencies:
+      '@zag-js/anatomy': 0.22.0
+      '@zag-js/core': 0.22.0
+      '@zag-js/dom-event': 0.22.0
+      '@zag-js/dom-query': 0.22.0
+      '@zag-js/element-size': 0.22.0
+      '@zag-js/form-utils': 0.22.0
+      '@zag-js/numeric-range': 0.22.0
+      '@zag-js/slider': 0.22.0
+      '@zag-js/types': 0.22.0
+      '@zag-js/utils': 0.22.0
+    dev: false
+
+  /@zag-js/remove-scroll@0.22.0:
+    resolution: {integrity: sha512-3jOgepYbLUFChwItlTn6gjZWayu+cJ2Z8RxjFKgU3IwsQTSEQwTMWqEGtV2qg6sDmsvsVfIERv+kLJOJYxDCag==}
+    dependencies:
+      '@zag-js/dom-query': 0.22.0
+    dev: false
+
+  /@zag-js/slider@0.22.0:
+    resolution: {integrity: sha512-biNDUSyNfYfEx3gDJwUlqi3gW+QanC4Z9Al22VGIRwMW1Hpah1iIhRbAOMXsp4myWrbaXR20WNvZZWmWdnmhQQ==}
+    dependencies:
+      '@zag-js/anatomy': 0.22.0
+      '@zag-js/core': 0.22.0
+      '@zag-js/dom-event': 0.22.0
+      '@zag-js/dom-query': 0.22.0
+      '@zag-js/element-size': 0.22.0
+      '@zag-js/form-utils': 0.22.0
+      '@zag-js/numeric-range': 0.22.0
+      '@zag-js/types': 0.22.0
+      '@zag-js/utils': 0.22.0
+    dev: false
+
+  /@zag-js/store@0.22.0:
+    resolution: {integrity: sha512-fczqorHLuAAECNWt9jAGcZ7hRh77l2IpRh5lfsz8n+245DSSRDo7XWLfGQ9j5ClHZU+GRMpgZzG+1ShePKrBkA==}
+    dependencies:
+      proxy-compare: 2.5.1
+    dev: false
+
+  /@zag-js/tabbable@0.22.0:
+    resolution: {integrity: sha512-oAi+axSCLakNWhuAULrj6yawPEjSoP6BA34osPoyiibIirjmoP9ObE0IU/Ha6FRGvT/7VW/ekdb8eXMAmu0rOQ==}
+    dependencies:
+      '@zag-js/dom-query': 0.22.0
+    dev: false
+
+  /@zag-js/text-selection@0.22.0:
+    resolution: {integrity: sha512-LfoE3Sx1lExTcKAi1loZyo1NEZ/tBl0wdedgSAZSZehC7ZoLu/YeZdIkbnXurKHe+MP2MTDqWNfH7ZF747xSJQ==}
+    dependencies:
+      '@zag-js/dom-query': 0.22.0
+    dev: false
+
+  /@zag-js/types@0.22.0:
+    resolution: {integrity: sha512-5t7lv0eWHl45O+H8L9aIzKBOgr9zXd7EozPKHGwScJmcOneP+v+jL8QVjSoLpL1kad/+7bBFbzaJsTIuN8qaxg==}
+    dependencies:
+      csstype: 3.1.2
+
+  /@zag-js/utils@0.22.0:
+    resolution: {integrity: sha512-3QcHK8GocS+WFlV6J2xuwUcvy4YrthnOIf7bl/Wa7cbaWCe7vkfvP+FN0BKtt0EYT7zBUDdfQdu6y8E7JWyM+g==}
+    dev: false
+
+  /@zag-js/visually-hidden@0.22.0:
+    resolution: {integrity: sha512-+TqM7aKsKMbD05z1/9WBV4rx2zpQCpBZpP7UzxhNLoiiJlL7GX7lE46Xtq77izTsi7kMgMBFxxM1SKyPjNRJwA==}
+    dev: false
+
+  /@zag-js/vue@0.22.0:
+    resolution: {integrity: sha512-Q8Viz9xGHmUGK3GrB3IZsFIyGtTWy19JgcXBwjQKN1J6OWzVEAiWquwuPph7TbpS1Chj2L2B9LXBUCqD5ioNZg==}
+    peerDependencies:
+      vue: '>=3.0.0'
+    dependencies:
+      '@zag-js/core': 0.22.0
+      '@zag-js/store': 0.22.0
+      '@zag-js/types': 0.22.0
+    dev: false
+
+  /class-variance-authority@0.6.0:
+    resolution: {integrity: sha512-qdRDgfjx3GRb9fpwpSvn+YaidnT7IUJNe4wt5/SWwM+PmUwJUhQRk/8zAyNro0PmVfmen2635UboTjIBXXxy5A==}
+    peerDependencies:
+      typescript: '>= 4.5.5 < 6'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      clsx: 1.2.1
+    dev: false
+
+  /clsx@1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /csstype@3.1.2:
+    resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
+
+  /focus-trap@7.5.2:
+    resolution: {integrity: sha512-p6vGNNWLDGwJCiEjkSK6oERj/hEyI9ITsSwIUICBoKLlWiTWXJRfQibCwcoi50rTZdbi87qDtUlMCmQwsGSgPw==}
+    dependencies:
+      tabbable: 6.2.0
+    dev: false
+
+  /klona@2.0.6:
+    resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
+    engines: {node: '>= 8'}
+    dev: false
+
+  /libphonenumber-js@1.10.41:
+    resolution: {integrity: sha512-4rmmF4u4vD3eGNuuCGjCPwRwO+fIuu1WWcS7VwbPTiMFkJd8F02v8o5pY5tlYuMR+xOvJ88mtOHpkm0Tnu2LcQ==}
+    dev: false
+
+  /proxy-compare@2.5.1:
+    resolution: {integrity: sha512-oyfc0Tx87Cpwva5ZXezSp5V9vht1c7dZBhvuV/y3ctkgMVUmiAGDVeeB0dKhGSyT0v1ZTEQYpe/RXlBVBNuCLA==}
+    dev: false
+
+  /tabbable@6.2.0:
+    resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==}
+    dev: false
+
+  /type-fest@4.5.0:
+    resolution: {integrity: sha512-diLQivFzddJl4ylL3jxSkEc39Tpw7o1QeEHIPxVwryDK2lpB7Nqhzhuo6v5/Ls08Z0yPSAhsyAWlv1/H0ciNmw==}
+    engines: {node: '>=16'}
+    dev: true
+
+  /uuid@9.0.0:
+    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
+    hasBin: true
+    dev: false
+
+  /vee-validate@4.11.8:
+    resolution: {integrity: sha512-ZuVpw0axWYBM3aVTD/bm94hcWHumqeUgNjptOqfBT0gyqyHaGYCrm0tSD/0bygEbWUDwEPJOQaEKaUGM82j8TQ==}
+    peerDependencies:
+      vue: ^3.3.4
+    dependencies:
+      '@vue/devtools-api': 6.5.1
+      type-fest: 4.5.0
+    dev: true
+
+  /vue-demi@0.14.6:
+    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dev: true
+
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+    dev: true

@@ -1,0 +1,21 @@
+{
+	"name": "library-2",
+	"type": "module",
+	"version": "0.0.1",
+	"private": true,
+	"exports": {
+		".": {
+			"types": "./dist/library-2.d.ts",
+			"import": "./dist/library-2.js"
+		}
+	},
+	"module": "./dist/library-2.js",
+	"types": "./dist/library-2.d.ts",
+	"scripts": {
+		"build": "vue-tsc --noEmit && vite build",
+		"test": "vitest"
+	},
+	"dependencies": {
+		"library-1": "workspace:*"
+	}
+}
